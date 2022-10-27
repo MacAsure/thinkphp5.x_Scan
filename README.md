@@ -1,5 +1,5 @@
 # thinkphp5.x_Scan
-thinkphp5.x所有版本的漏洞检测、利用、写shell工具!!!
+thinkphp5.x(tp5)所有版本的漏洞检测、利用、写shell工具!!!
 
 仅支持rce的利用和写webshell，如遇到exp或写shell失败,请手工尝试!
 
