@@ -88,3 +88,18 @@ python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 ![ThinkPHP5.x_Scan-1.png](./images/ThinkPHP5.x_Scan-7.png)
 
 ![ThinkPHP5.x_Scan-8.png](./images/ThinkPHP5.x_Scan-8.png)
+
+# 更新
+***
+```
+2022.11.4
+--更新thinkphp5版本漏洞
+--更新poc高亮
+--循环poc进行利用
+--支持批量输出文件
+```
+
+# 更多
+***
+thinkphp5.x的各种版本的漏洞原理及代码分析，请搜索微信公众号"MrHatSec"。
+更多红队技巧，请搜索公众号"信安泥石流"。
