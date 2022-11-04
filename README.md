@@ -49,7 +49,7 @@ git clone https://github.com/iceberg-N/thinkphp5.x_Scan.git
 ## 使用方法
 ***
 -h 提供命令帮助文档
-![ThinkPHP5.x_Scan-1.png](./images/ThinkPHP5.x_Scan-1.png =50x10)
+![ThinkPHP5.x_Scan-1.png =50x10](./images/ThinkPHP5.x_Scan-1.png)
 
 **单个目标**
 只有域名，默认为http
