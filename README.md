@@ -49,7 +49,7 @@ git clone https://github.com/iceberg-N/thinkphp5.x_Scan.git
 ## 使用方法
 ***
 -h 提供命令帮助文档
-![ThinkPHP5.x_Scan-1.png](./images/ThinkPHP5.x_Scan-1.png)
+![ThinkPHP5.x_Scan-1.png](./images/ThinkPHP5.x_Scan-1.png =50x50)
 
 **单个目标**
 只有域名，默认为http
@@ -85,6 +85,6 @@ python3 ThinkPHP5_X_Scan.py -w http://example.com
 python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 ```
 
-![ThinkPHP5.x_Scan-1.png](./images/ThinkPHP5.x_Scan-1.png)
+![ThinkPHP5.x_Scan-1.png](./images/ThinkPHP5.x_Scan-7.png)
 
 ![ThinkPHP5.x_Scan-8.png](./images/ThinkPHP5.x_Scan-8.png)
