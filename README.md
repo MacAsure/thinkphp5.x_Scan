@@ -65,7 +65,7 @@ python3 ThinkPHP5_X_Scan.py -u http://example.com
 python3 ThinkPHP5_X_Scan.py -u http://example.com -c whoami
 ```
 
-![[../images/ThinkPHP5.x_Scan-3.png]]
+![./images/ThinkPHP5.x_Scan-3.png]
 
 ![[../images/ThinkPHP5.x_Scan-4.png]]
 
