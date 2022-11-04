@@ -49,7 +49,7 @@ git clone https://github.com/iceberg-N/thinkphp5.x_Scan.git
 ## 使用方法
 ***
 -h 提供命令帮助文档
-![[./images/ThinkPHP5.x_Scan-1.png]]
+![[../images/ThinkPHP5.x_Scan-1.png]]
 
 **单个目标**
 只有域名，默认为http
@@ -57,7 +57,7 @@ git clone https://github.com/iceberg-N/thinkphp5.x_Scan.git
 python3 ThinkPHP5_X_Scan.py -u http://example.com
 ```
 
-![[./images/ThinkPHP5.x_Scan-2.png]]
+![[../images/ThinkPHP5.x_Scan-2.png]]
 
 **漏洞利用**
 
@@ -65,9 +65,9 @@ python3 ThinkPHP5_X_Scan.py -u http://example.com
 python3 ThinkPHP5_X_Scan.py -u http://example.com -c whoami
 ```
 
-![[./images/ThinkPHP5.x_Scan-3.png]]
+![[../images/ThinkPHP5.x_Scan-3.png]]
 
-![[./images/ThinkPHP5.x_Scan-4.png]]
+![[../images/ThinkPHP5.x_Scan-4.png]]
 
 **上传webshell**
 支持一句话木马，webshell名为"iceberg.php"，密码为"iceberg"
@@ -85,6 +85,6 @@ python3 ThinkPHP5_X_Scan.py -w http://example.com
 python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 ```
 
-![[./images/ThinkPHP5.x_Scan-7.png]]
+![[https://github.com/iceberg-N/thinkphp5.x_Scan/blob/main/images/ThinkPHP5.x_Scan-1.png]]
 
 ![[./images/ThinkPHP5.x_Scan-8.png]]
