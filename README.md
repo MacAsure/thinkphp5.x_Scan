@@ -10,14 +10,11 @@ thinkphp5.x(tp5)所有版本的漏洞检测、利用、写shell工具!!!
 **支持漏洞检测**
 ***
 POC种类：
+```
 check_5_x_route_rce
-
 check_5_0_x_db
-
 check_5_x_construct_rce 
-
 check_5_x_construct_other
-
 check_5_x_sql
 check_5_x_xff_sql 
 check_5_x_time_sql  
@@ -29,6 +26,7 @@ check_5_x_cache_rce
 check_5_x_ids_sql
 check_5_x_orderid_sql  
 check_5_x_update_sql
+```
 
 **支持漏洞利用**
 ***
@@ -51,7 +49,7 @@ git clone https://github.com/iceberg-N/thinkphp5.x_Scan.git
 ## 使用方法
 ***
 -h 提供命令帮助文档
-![[ThinkPHP5.x_Scan-1.png]]
+![[./images/ThinkPHP5.x_Scan-1.png]]
 
 **单个目标**
 只有域名，默认为http
@@ -59,7 +57,7 @@ git clone https://github.com/iceberg-N/thinkphp5.x_Scan.git
 python3 ThinkPHP5_X_Scan.py -u http://example.com
 ```
 
-![[ThinkPHP5.x_Scan-2.png]]
+![[./images/ThinkPHP5.x_Scan-2.png]]
 
 **漏洞利用**
 
@@ -67,9 +65,9 @@ python3 ThinkPHP5_X_Scan.py -u http://example.com
 python3 ThinkPHP5_X_Scan.py -u http://example.com -c whoami
 ```
 
-![[ThinkPHP5.x_Scan-3.png]]
+![[./images/ThinkPHP5.x_Scan-3.png]]
 
-![[ThinkPHP5.x_Scan-4.png]]
+![[./images/ThinkPHP5.x_Scan-4.png]]
 
 **上传webshell**
 支持一句话木马，webshell名为"iceberg.php"，密码为"iceberg"
@@ -77,9 +75,9 @@ python3 ThinkPHP5_X_Scan.py -u http://example.com -c whoami
 python3 ThinkPHP5_X_Scan.py -w http://example.com
 ```
 
-![[ThinkPHP5.x_Scan-5.png]]
+![[./images/ThinkPHP5.x_Scan-5.png]]
 
-![[ThinkPHP5.x_Scan-6.png]]
+![[./images/ThinkPHP5.x_Scan-6.png]]
 
 **批量检测**
 支持txt格式
@@ -87,6 +85,6 @@ python3 ThinkPHP5_X_Scan.py -w http://example.com
 python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 ```
 
-![[ThinkPHP5.x_Scan-7.png]]
+![[./images/ThinkPHP5.x_Scan-7.png]]
 
-![[ThinkPHP5.x_Scan-8.png]]
+![[./images/ThinkPHP5.x_Scan-8.png]]
