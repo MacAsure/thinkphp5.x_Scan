@@ -101,5 +101,5 @@ python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 
 # 更多
 ***
-thinkphp5.x的各种版本的漏洞原理及代码分析，请搜索微信公众号"MrHatSec"。
+thinkphp5.x的各种版本的漏洞原理及代码分析，请搜索微信公众号"MrHatSec"。\n
 更多红队技巧，请搜索公众号"信安泥石流"。
