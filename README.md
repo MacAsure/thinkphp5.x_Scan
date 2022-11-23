@@ -97,6 +97,10 @@ python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 --更新poc高亮
 --循环poc进行利用
 --支持批量输出文件
+
+2022.11.23
+--修复check_5_x_cache_rce误报
+--优化批量扫描(去除前后空格导致的报错)
 ```
 
 # 更多
