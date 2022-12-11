@@ -26,6 +26,7 @@ check_5_x_cache_rce
 check_5_x_ids_sql
 check_5_x_orderid_sql  
 check_5_x_update_sql
+check_lang_rce
 ```
 
 **支持漏洞利用**
@@ -101,6 +102,9 @@ python3 ThinkPHP5_X_Scan.py -f ./ip.txt -o ./result.txt
 2022.11.23
 --修复check_5_x_cache_rce误报
 --优化批量扫描(去除前后空格导致的报错)
+
+2022.12.11
+--更新thinkphp多语言rce检测，后续会更新利用模块
 ```
 
 # 更多
